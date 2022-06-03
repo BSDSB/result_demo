@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        labe "demoAgent"
+    }
     stages {
         stage('Hello') {
             steps {
